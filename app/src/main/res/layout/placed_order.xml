@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgTick"
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/tick" />
+
+    <TextView
+        android:id="@+id/txtor_pla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgTick"
+        android:layout_centerInParent="true"
+        android:text="ORDER PLACED"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

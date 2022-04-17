@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/restHeader"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/txthotelName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:padding="8dp"
+            android:text="Kothrud Bowl company"
+            android:textColor="@color/black"
+            android:textSize="21sp" />
+
+        <Button
+            android:id="@+id/btnfav"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="10dp"
+            android:text="add to fav"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/txtHoteldesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txthotelName"
+            android:layout_marginStart="12dp"
+            android:fontFamily="sans-serif-light"
+            android:text="North india,Nigdi|1.8Kms"
+            android:textColor="#423E3E"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/seprator2"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/txtHoteldesc"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seprator2"
+            android:layout_marginStart="10sp"
+            android:drawableLeft="@drawable/ic_baseline_star_half_24"
+            android:fontFamily="sans-serif-medium"
+            android:padding="5dp"
+            android:text="3.8"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seprator2"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="50dp"
+
+            android:fontFamily="sans-serif-medium"
+            android:text="  ₹250"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/totalRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rating"
+            android:layout_marginStart="10dp"
+            android:fontFamily="sans-serif-light"
+
+
+            android:text="1000+ ratings"
+            android:textColor="#423E3E"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/eachPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/price"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="sans-serif-light"
+            android:text="₹250 for two"
+
+            android:textColor="#423E3E"
+            android:textSize="15sp"
+            android:textStyle="normal"
+
+            />
+
+        <RelativeLayout
+            android:id="@+id/breakLay"
+            android:layout_width="match_parent"
+            android:layout_height="19dp"
+            android:layout_below="@+id/totalRate"
+            android:layout_marginTop="8dp"
+            android:background="#FAF8F6F6" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtrecomded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:padding="10sp"
+        android:text="Recommended(6)"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+
+</LinearLayout>
+
+
+    <!--<com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton-->
+    <!--    android:layout_width="100sp"-->
+    <!--    android:layout_height="35sp"-->
+    <!--    android:layout_alignParentBottom="true"-->
+    <!--    android:layout_centerInParent="true"-->
+    <!--    android:background="@drawable/bg_round"-->
+    <!--    android:text="BROWSE MENU"-->
+    <!--/>-->
+
+
+

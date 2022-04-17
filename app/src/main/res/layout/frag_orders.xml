@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtDel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:padding="10sp"
+        android:text="Delivery Address"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/z"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDel"
+        android:layout_marginStart="12dp"
+        android:fontFamily="sans-serif-light"
+        android:text="ABC Soc, 101 FLat, XYZ Paradise,"
+        android:textColor="#423E3E"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/addDel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addDel"
+        android:layout_marginStart="12dp"
+        android:fontFamily="sans-serif-light"
+        android:text="P.O. Box 283 8562 Fusce Rd.
+Frederick Nebraska"
+        android:textColor="#423E3E"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+    <RelativeLayout
+        android:id="@+id/breakLay1"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_below="@+id/addDel1"
+        android:layout_marginTop="10dp"
+        android:background="#FAF8F6F6" />
+
+    <TextView
+        android:id="@+id/txtOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/breakLay1"
+        android:fontFamily="sans-serif-medium"
+        android:padding="10sp"
+        android:text="Your Order"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtOrder"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:dividerHeight="2dp" />
+
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lv1"
+        android:fontFamily="sans-serif-medium"
+        android:padding="10sp"
+        android:layout_margin="10dp"
+        android:text="Total"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/txtPriceFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lv1"
+        android:fontFamily="sans-serif-medium"
+        android:padding="10sp"
+        android:layout_margin="10dp"
+        android:text="400"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+</RelativeLayout>
+
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/primary"
+        android:drawableLeft="@drawable/ic_baseline_fastfood_24"
+        android:padding="7dp"
+        android:text="Place Order"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+</RelativeLayout>

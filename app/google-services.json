@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "291249308940",
+    "project_id": "resto-c0b34",
+    "storage_bucket": "resto-c0b34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291249308940:android:d23538b4a305a447e7f529",
+        "android_client_info": {
+          "package_name": "com.example.resto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291249308940-jtvuqgkqs7hd28hdtn4g5ml5ndlant8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw4qre0JKUFBSW-tJW_hv5i7es8amm_xo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291249308940-jtvuqgkqs7hd28hdtn4g5ml5ndlant8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291249308940:android:376f5de5c1254ba2e7f529",
+        "android_client_info": {
+          "package_name": "com.example.restro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291249308940-jtvuqgkqs7hd28hdtn4g5ml5ndlant8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw4qre0JKUFBSW-tJW_hv5i7es8amm_xo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291249308940-jtvuqgkqs7hd28hdtn4g5ml5ndlant8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

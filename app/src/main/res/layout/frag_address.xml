@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/address_bck"
+    tools:context=".Address_page">
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/vie_reg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text=" Confirm your address"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtHouse_no"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="300sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="30sp"
+
+            android:hint="Flat/House No./Floor/Building"
+            app:counterEnabled="true"
+
+
+            app:counterMaxLength="50"
+            app:endIconMode="clear_text"
+            app:helperText="Please provide the necessary details">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etdHouse"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:maxLength="50" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtPincode"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="300sp"
+            android:layout_height="60sp"
+
+            android:layout_marginTop="20sp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:hint="Pincode"
+            app:counterEnabled="true"
+
+
+            app:counterMaxLength="50"
+            app:endIconMode="clear_text"
+            app:helperText="Please provide the necessary details">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtPincode"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_marginTop="20sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:maxLength="50" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtlocality"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="300sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="20sp"
+            android:hint="Locality"
+            app:counterEnabled="true"
+            app:counterMaxLength="50"
+            app:endIconMode="clear_text"
+            app:helperText="Please provide the necessary details">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtlocality"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20sp"
+
+                android:fontFamily="sans-serif-condensed-medium"
+                android:maxLength="50" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtlandmark"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="300sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="20sp"
+
+            android:hint="Landmark"
+            app:counterEnabled="true"
+            app:counterMaxLength="50"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtlandmark"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_marginTop="20sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:maxLength="50" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btnAddress"
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/vie_btn"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Confirm"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

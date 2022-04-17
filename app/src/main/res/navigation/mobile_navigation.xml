@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+<!--    <fragment-->
+<!--        android:id="@+id/navigation_home"-->
+<!--        android:name="com.example.restro.home_frag"-->
+<!--        android:label="Home"-->
+<!--        tools:layout="@layout/home_page_recy" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/navigation_fav"-->
+<!--        android:name="com.example.restro.Fav_frag"-->
+<!--        android:label="Favourite"-->
+<!--        tools:layout="@layout/frag_fav" />-->
+
+
+<!--    <fragment-->
+<!--        android:id="@+id/navigation_Orders"-->
+<!--        android:name="com.example.restro.Orders_frag"-->
+<!--        android:label="My Orders"-->
+<!--        tools:layout="@layout/frag_orders" />-->
+
+</navigation>

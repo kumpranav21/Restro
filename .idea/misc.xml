@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/drawable-v24/vie_bg.xml" value="0.2518518518518518" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/drawable-v24/vie_btn.xml" value="0.2518518518518518" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/drawable-v24/vie_title.xml" value="0.2518518518518518" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/drawable/activity_home_page.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/drawable/bg_round.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/drawable/ic_baseline_star_half_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/drawable/vie_img_rest_info.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/drawable/vie_reg.xml" value="0.23148148148148148" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/activity_address.xml" value="0.25" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/activity_frag_parent.xml" value="0.25" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/activity_home_page.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/activity_imgadapter.xml" value="0.25" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/activity_login_page.xml" value="0.2" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/activity_maps.xml" value="0.25" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/activity_registration_page.xml" value="0.17300724637681159" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/activity_registration_pg.xml" value="0.264" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/activity_search.xml" value="0.24728260869565216" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/activity_splash_screen.xml" value="0.17300724637681159" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/carddesign.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/carddesign_home_recy.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/carddesign_restuarant_info.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/cart_info.xml" value="0.264" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/frag_address.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/frag_fav.xml" value="0.23097826086956522" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/frag_orders.xml" value="0.23097826086956522" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/frag_registration_pg.xml" value="0.176" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/frag_resto_select.xml" value="0.24139492753623187" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/fragment_home_page.xml" value="0.23097826086956522" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/home.xml" value="0.24592391304347827" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/home_page_header.xml" value="0.2" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/home_page_recy.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/listview_cart.xml" value="0.25" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/placed_order.xml" value="0.176" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/restuarant_info_recy.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/resturant_info.xml" value="0.264" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/resturant_info_footer.xml" value="0.2" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/resturant_info_header.xml" value="0.264" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/layout/slider_layout.xml" value="0.25" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/menu/navigation.xml" value="0.25" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2462962962962963" />
+        <entry key="..\:/Users/kumpr/AndroidStudioProjects/RESTrO/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14322916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
